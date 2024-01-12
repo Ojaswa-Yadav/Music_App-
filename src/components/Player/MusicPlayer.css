@@ -1,0 +1,36 @@
+.music-player-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  .player-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .player-button {
+    background: none;
+    border: none;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: transform 0.1s;
+  }
+  
+  .player-button:hover {
+    transform: scale(1.1);
+  }
+  
+  .now-playing {
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+  }
+  
